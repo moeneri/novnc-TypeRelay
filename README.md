@@ -141,7 +141,3 @@ tests/
 
 `A simulated typing tool for noVNC and remote consoles. | 一个用于 noVNC 和远程控制台的模拟输入工具。`
 
-## 许可 License
-
-No license file is included yet. Add one before public distribution if you want reuse terms to be explicit.  
-当前仓库尚未包含许可证文件。如果你准备公开分发，建议补一个明确的许可证。
