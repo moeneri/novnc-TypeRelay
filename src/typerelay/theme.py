@@ -13,10 +13,10 @@ PALETTE = {
 }
 
 STATUS_STYLES = {
-    "Ready": {"bootstyle": "secondary"},
-    "Countdown": {"bootstyle": "warning"},
-    "Typing": {"bootstyle": "success"},
-    "Stopped": {"bootstyle": "danger"},
-    "Done": {"bootstyle": "info"},
-    "Error": {"bootstyle": "danger"},
+    "ready": {"bootstyle": "secondary"},
+    "countdown": {"bootstyle": "warning"},
+    "typing": {"bootstyle": "success"},
+    "stopped": {"bootstyle": "danger"},
+    "done": {"bootstyle": "info"},
+    "error": {"bootstyle": "danger"},
 }
