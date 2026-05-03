@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typerelay"
+version = "0.1.0"
+description = "A simulated typing tool for noVNC and remote consoles."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "keyboard>=0.13.5",
+  "pyautogui>=0.9.54",
+  "ttkbootstrap>=1.14.2",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
