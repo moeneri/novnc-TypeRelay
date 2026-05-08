@@ -77,6 +77,13 @@ Every push and pull request runs the Windows build workflow:
 2. 下载 `TypeRelay-windows-exe` artifact。
 3. 解压后直接运行 `TypeRelay.exe`。
 
+## 仓库内置 EXE Repository-Bundled EXE
+
+- The repository can also carry a locally built executable at `artifacts/TypeRelay.exe`.
+- This file is intended as a ready-to-download binary snapshot committed from a verified local build.
+- 仓库中也可以直接包含一个本地构建好的可执行文件，位置为 `artifacts/TypeRelay.exe`。
+- 这个文件表示一次经过本地验证后提交的可直接下载版本。
+
 ## 时间参数说明 Timing Notes
 
 - `Countdown` is how long TypeRelay waits before sending the first key.
@@ -133,6 +140,8 @@ src/typerelay/
   hotkeys.py
   theme.py
   typing_engine.py
+artifacts/
+  TypeRelay.exe
 tests/
 .github/workflows/build.yml
 ```
